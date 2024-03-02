@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url:
-    username:
-    password:
+    url:jdbc:sqlserver://portfolio-demo-server.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username:sqladmin
+    password:password.123
   jpa:
     show-sql: true
     hibernate:
@@ -11,3 +11,5 @@ spring:
 
 server:
   port: 9191
+
+
